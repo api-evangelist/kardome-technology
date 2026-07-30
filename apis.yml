@@ -1,8 +1,25 @@
 aid: kardome-technology
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kardome-technology.png
 name: Kardome Technology
-description: Kardome Technology is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Kardome develops Voice AI technology that lets voice-integrated products hear and understand
+  speech with human-level accuracy in complex, real-world acoustic environments. Its two core technologies
+  are Spatial Hearing AI, which understands the acoustic scene to localize sound sources and attribute
+  speech to the correct speaker, and Cognition AI, which adds contextual awareness so devices understand
+  what people mean in the moment. Kardome targets automotive in-car voice UI and smart-home voice interaction
+  in noisy environments. The company is a Techstars portfolio company, tracked in the API Evangelist network;
+  it licenses embedded voice technology to device makers rather than publishing a public developer API,
+  SDK, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/kardome-technology/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Voice AI
+- Speech Recognition
+- Automotive
+- Smart Home
+- Audio
+- Machine Learning
+- Voice Interface
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/kardome-technology-domain-security.yml
 - type: Website
   url: https://kardome.com/
+- type: Blog
+  url: https://www.kardome.com/resources/blog/
+- type: Support
+  url: https://www.kardome.com/company/contact-us/
+- type: TermsOfService
+  url: https://www.kardome.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.kardome.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
