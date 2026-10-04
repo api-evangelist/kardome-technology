@@ -48,7 +48,7 @@ tags:
 - Automotive
 - Smart Home
 - Audio
-- Machine-Learning
+- Machine Learning
 - Voice Interface
 tags_raw:
 - Company
@@ -59,6 +59,7 @@ tags_raw:
 - Audio
 - Machine Learning
 - Voice Interface
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
